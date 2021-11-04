@@ -74,7 +74,7 @@ def fo2_cal_single(P,T,PV,r,method='earth',flag=False,fit='fit3'):
     ----
 
     
-    Term int\{P0 to P0, deltaV}, deltaV is at reference temperature, not along geotherm.
+    Term int\{P0 to P, deltaV dP}, deltaV is at reference temperature, not along geotherm.
     That means, to calcualte this term, for every point in geotherm, P,T, one needs to
     calculate the dV from P0 to P along T, and then integrate.
     Note this is different from just calculate dV along the goetherm, then integrate.
