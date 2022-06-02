@@ -131,7 +131,7 @@ p_A18_moon_cold,f_A18_moon_cold,fo_A18_moon_cold   = extrapolate(P,logf_A18_12p5
 
 fig,ax = plt.subplots(1,1,figsize=(3.8,4.5),sharey=True)
 
-from vatic.plots import plot_tool
+import plot_tool
 plot_tool.load_default_setting()
 ax.plot(f_mars_cold,p_mars_cold,'r-',linewidth = 3,label='')
 ax.plot(f_earth_cold,p_earth_cold,'b-',linewidth = 3,label='')

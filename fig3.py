@@ -93,7 +93,7 @@ alpha = 0.6
 
 fig,ax = plt.subplots(1,2,figsize=(10,6),sharey=True)
 
-from vatic.plots import plot_tool
+import plot_tool
 plot_tool.load_default_setting()
 fig.subplots_adjust(hspace=0.2,wspace=0.1)
 #plot cold geotherm
